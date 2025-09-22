@@ -1,0 +1,11 @@
+#map { height: 380px; border-radius: 0.5rem; border: 1px solid #e5e7eb; }
+.card { background:#fff; border:1px solid #f3f4f6; border-radius:.5rem; padding:1rem; box-shadow:0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.1); }
+.status { display:inline-flex; align-items:center; gap:.25rem; padding:.125rem .5rem; border-radius:.375rem; font-size:.75rem; font-weight:600; }
+.pending { background:#fef3c7; color:#92400e; }
+.progress { background:#dbeafe; color:#1e40af; }
+.resolved { background:#dcfce7; color:#166534; }
+.btn { display:inline-flex; align-items:center; gap:.5rem; padding:.375rem .75rem; border-radius:.375rem; border:1px solid #d1d5db; font-size:.875rem; font-weight:500; background:#fff; cursor:pointer; }
+.btn:hover { background:#f9fafb; }
+.btn-primary { background:#4f46e5; border-color:#4f46e5; color:#fff; }
+.btn-primary:hover { background:#4338ca; }
+.img-preview { max-height:96px; border-radius:.375rem; border:1px solid #e5e7eb; }
